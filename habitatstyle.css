@@ -10,20 +10,22 @@
  h1 {
      text-align: center;
      font-size: 180%;
-     line-height: 120%;
+     color: #685a3a;
      padding: 5% 0;
  }
  h2 {
      text-decoration: underline;
-     line-height: 280%;
-     padding-left: 2%;
+     color: #685a3a;     
+     
  }
  h3 {
-     line-height: 15px;
+     line-height: 5px;
      padding: 5% 0;
+     color: #86a579;
  }
  p {
      padding: 1%;
+     color:  #685a3a
  }
            img {
      max-width: 100%;
@@ -42,29 +44,28 @@
  section {
      width: 29%;
      float: left;
-     margin: 2% 2%;
+     margin: 2% 2% 0 2%;
      text-align: center;
  }
  .clear {
      clear: both;
  }
  article {
-     float: left;
-     margin: 0 auto;
+     float: left;     
      width: 50%;
      height: auto;
-     padding: 4%;
+     padding: 4% 0 0 4%;
  }
  aside {
-     float: right;
-     margin: 0 auto;
+     float: right;     
      width: 35%;
      height: auto;
      padding: 3%;
+     
  }
  ul.habitats li {
      padding-left: 3%;
-     
+     color: #685a3a;
  }
  footer {
      background: #333333;
@@ -169,7 +170,7 @@
              max-width: 1400px;
              display: block;
              position: relative;
-             margin: 50px auto;
+             margin: 40px auto 0 auto;
              overflow: hidden;                
              }
              /*arrow-button*/
